@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,12 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>GreenBox</title>
 </head>
@@ -60,7 +64,8 @@
                     <div class="col-lg-6">
                         <p class="text-uppercase small">Pequeñas acciones grandes cambios</p>
                         <h1>Pequeños cambios, un planeta más verde.</h1>
-                        <p>Descrubre cómo reciclar, cultivar y adoptar hábitos sostenibles desde casa. El cambio comienzacon pequeñas acciones.
+                        <p>Descrubre cómo reciclar, cultivar y adoptar hábitos sostenibles desde casa. El cambio
+                            comienzacon pequeñas acciones.
                         </p>
                         <a class="btn btn-success" href="#reciclaje">Empieza el cambio</a>
                     </div>
@@ -74,46 +79,90 @@
 
         <!-- Recicla con sentido: MANUELA VERGARA-->
         <section id="reciclaje"></section>
-        
+
         <!-- Conecta con la naturaleza: ANDREA -->
-        <section id="cultivar">
-            <div class="d-flex">
-                <div>
-                    <p class="text-uppercase">02 / conecta con lo natural</p>
-                    <h2>Haz crecer algo bueno</h2>
-                </div>
-                <p>Cultivar en casa te conecta con la naturaleza, llena de vida tus espacios y se enseña a cuidar. No necesitas un gran jardín: empieza con una maceta.</p>
-            </div>
-            <div>
-                <div>
-                    <img src="./img/cultivar01.webp" alt="">
-                    <div>
-                        <p class="text-uppercase">01 - luz natural</p>
-                        <i></i>
+        <section id="cultivar" class="py-5">
+            <div class="container-fluid px-4 px-lg-5">
+                <div class="row align-items-end g-3 mb-4">
+                    <div class="col-lg-7">
+                        <p class="text-uppercase small text-success fw-semibold">02 / conecta con lo natural</p>
+                        <h2>Haz crecer algo bueno</h2>
                     </div>
-                    <h3>Elige el lugar adecuado</h3>
-                    <p>Busca espacios con iluminación apropiada.</p>
-                    <p>observa cómo entra el sol durante el día</p>
-                </div>
-                <div>
-                    <img src="./img/cultivar02.webp" alt="">
-                    <div>
-                        <p class="text-uppercase">02 / agua en equilibrio</p>
-                        <i></i>
+                    <div class="col-lg-5">
+                        <p class="text-secondary mb-0">Cultivar en casa te conecta con la naturaleza, llena de vida tus
+                            espacios y se enseña a
+                            cuidar. No necesitas un gran jardín: empieza con una maceta.</p>
                     </div>
-                    <h3>Aprende a regar</h3>
-                    <p>Adapta el eigo a las necesidades de cada planta.</p>
-                    <p>toca la tierra antes de volver a regar.</p>
                 </div>
-                <div>
-                    <img src="./img/cultivar03.webp" alt="">
-                    <div>
-                        <p class="text-uppercase">03 / raices sanas</p>
-                        <i></i>
+
+                <div class="row g-4">
+                    <div class="col-12 col-lg-4">
+                        <article>
+                            <div class="ratio ratio-4x3 mb-3">
+                                <img src="./img/cultivar01.webp" alt="Plantas en macetas junto a una ventana"
+                                    class="w-100 h-100 object-fit-cover rounded-4">
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="text-uppercase small text-success fw-semibold mb-2">01 - luz natural</p>
+                                <svg class="cultivar-icon" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <circle cx="12" cy="12" r="4"></circle>
+                                    <path
+                                        d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42">
+                                    </path>
+                                </svg>
+                            </div>
+
+                            <h3 class="h5">Elige el lugar adecuado</h3>
+                            <p class="text-secondary">Busca espacios con iluminación apropiada.</p>
+                            <p class="small text-success">observa cómo entra el sol durante el día</p>
+                        </article>
                     </div>
-                    <h3>Cuida la tierra</h3>
-                    <p>Utiliza sustratos adecuados y mantén tus plantas saludables.</p>
-                    <p>Elige una maceta con buen drenaje.</p>
+
+                    <div class="col-12 col-lg-4">
+                        <article>
+                            <div class="ratio ratio-4x3 mb-3">
+                                <img src="./img/cultivar02.webp" alt="" class="w-100 h-100 object-fit-cover rounded-4">
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="text-uppercase small text-success fw-semibold mb-2">02 / agua en equilibrio
+                                </p>
+                                <svg class="cultivar-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M12 22a7 7 0 0 0 7-7c0-4-7-13-7-13S5 11 5 15a7 7 0 0 0 7 7Z"></path>
+                                <path d="M9 16a3 3 0 0 0 3 3"></path>
+                            </svg>
+                            </div>
+                            <h3 class="h5">Aprende a regar</h3>
+                            <p class="text-secondary">Adapta el eigo a las necesidades de cada planta.</p>
+                            <p class="small text-success">toca la tierra antes de volver a regar.</p>
+                        </article>
+                    </div>
+
+
+                    <div class="col-12 col-lg-4">
+                        <article>
+                            <div class="ratio ratio-4x3 mb-3">
+                                <img src="./img/cultivar03.webp" alt="" class="w-100 h-100 object-fit-cover rounded-4">
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="text-uppercase small text-success fw-semibold mb-2">03 / raices sanas</p>
+                                <svg class="cultivar-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M12 22v-8"></path>
+                                <path d="M12 14c-5 0-8-3-8-8 5 0 8 3 8 8Z"></path>
+                                <path d="M12 17c0-5 3-8 8-8 0 5-3 8-8 8Z"></path>
+                            </svg>
+                            </div>
+                            <h3 class="h5">Cuida la tierra</h3>
+                            <p class="text-secondary">Utiliza sustratos adecuados y mantén tus plantas saludables.</p>
+                            <p class="small text-success">Elige una maceta con buen drenaje.</p>
+                        </article>
+                    </div>
                 </div>
             </div>
         </section>
@@ -124,9 +173,10 @@
                 <h5>03 / HÁBITOS QUE DEJAN HUELLA</h5>
                 <div>
                     <h3>Vivir sostenible está en tus manos</h3>
-                    <p>Cada decisión cotidiana es una oportunidad para cuidar el planeta. Consume con intención, aprovecha lo que tienes y convierte pequeños gestos en buenos hábitos.</p>
+                    <p>Cada decisión cotidiana es una oportunidad para cuidar el planeta. Consume con intención,
+                        aprovecha lo que tienes y convierte pequeños gestos en buenos hábitos.</p>
                 </div>
-            
+
                 <div>
                     <img src="img/Composting-photograph.png" alt="Imagen de compostaje">
                     <h4>Composta</h4>
@@ -150,7 +200,9 @@
     <!-- Pie de pagina: MANUELA ROLDAN-->
     <footer></footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
