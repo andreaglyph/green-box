@@ -1,12 +1,23 @@
+/* ========================================
+   1. VARIABLES GLOBALES
+======================================== */
+
 :root {
+    /* Colores */
     --Verde-noche: #051914;
     --Verde-pino: #003527;
     --Verde-bosque: #125B49;
     --Marfil-cálido: #FCF6EB;
 
+    /* Tipografías */
     --titulos: "DM Sans", sans-serif;
-    --textto: "Inter", sans-serif;
+    --texto: "Inter", sans-serif;
 }
+
+
+/* ========================================
+   2. CONFIGURACIÓN GENERAL
+======================================== */
 
 * {
     margin: 0;
@@ -14,10 +25,82 @@
     box-sizing: border-box;
 }
 
+/* Títulos */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--titulos);
 }
 
+/* Párrafos */
 p {
-    font-family: var(--textto);
+    font-family: var(--texto);
 }
+
+
+/* ========================================
+   3. NAVBAR - ANDRÉS
+======================================== */
+
+.gb-navbar {
+    min-height: 104px;
+    padding: 24px 6.3%;
+    background-color: var(--Marfil-cálido);
+    border-bottom: 1px solid #d8d8ca;
+}
+
+/* Marca */
+.gb-brand {
+    color: var(--Verde-pino);
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+/* Logo */
+.gb-logo {
+    width: 38px;
+    height: 38px;
+}
+
+/* Enlaces de navegación */
+.gb-navbar .nav-link {
+    padding: 10px 0 7px;
+    color: #17231f;
+    font-size: 14px;
+    border-bottom: 2px solid transparent;
+}
+
+/* Enlace activo */
+.gb-navbar .nav-link.active {
+    color: var(--Verde-bosque);
+    font-weight: 700;
+    border-bottom-color: var(--Verde-bosque);
+}
+
+
+/* ========================================
+   4. INICIO - ANDRÉS
+======================================== */
+
+#inicio {
+    background-color: var(--Marfil-cálido);
+}
+
+
+/* ========================================
+   5. RECICLAJE - MANUELA VERGARA
+======================================== */
+
+
+/* ========================================
+   6. CULTIVAR - ANDREA
+======================================== */
+
+
+/* ========================================
+   7. VIDA SOSTENIBLE - JUAN PABLO
+======================================== */
+
+
+/* ========================================
+   8. FOOTER - MANUELA ROLDÁN
+======================================== */
