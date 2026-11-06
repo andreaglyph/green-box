@@ -1,0 +1,23 @@
+:root {
+    --Verde-noche: #051914;
+    --Verde-pino: #003527;
+    --Verde-bosque: #125B49;
+    --Marfil-cálido: #FCF6EB;
+
+    --titulos: "DM Sans", sans-serif;
+    --textto: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--titulos);
+}
+
+p {
+    font-family: var(--textto);
+}

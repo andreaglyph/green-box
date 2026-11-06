@@ -1,6 +1,6 @@
 # GreenBox
 <p align="center">
-<img src="img/Logo.png" alt="Logo GreenBox" width="200">
+<img src="img/Logo.png" alt="Logo GreenBox" width="100" height="auto">
 </p>
  
 ## Cultiva, Recicla y Transforma
@@ -29,6 +29,32 @@ Su propósito es ayudar a las personas a reducir su impacto ambiental y aprender
 ### Nuestra propuesta de valor
 
 Ofrecer en un mismo lugar conocimientos que permitan a las personas transformar sus hogares en espacios más sostenibles mediante el reciclaje y el cultivo de plantas.
+
+***
+
+## Identidad visual
+
+### Paleta de colores
+
+- **Verde noche:** #051914
+- **Verde pino:** #003527
+- **Verde bosque:** #125B49
+- **Marfil cálido:** #FCF6EB
+
+<p align="center">
+<img src="img/paleta-colores.png" alt="Paleta de colores" width="500" height="auto">
+</p>
+
+### Tipografías
+
+- **DM Sans** para títulos.
+- **Inter** para textos.
+
+### Tecnologías
+
+- HTML5
+- CSS3
+- Bootstrap 5.3
 
 ***
 
@@ -76,11 +102,10 @@ La página estará dividida en cinco secciones:
 
 ### 5. Alcance del proyecto
 
-- Desarrollo exclusivo con HTML5 y CSS3.
+- Desarrollo con HTML5, CSS3 y Bootstrap 5.3.
 - Diseño visual sencillo, moderno y responsive.
 - Navegación mediante enlaces internos.
 - Contenido e imágenes estáticas.
 - Sin formularios funcionales, bases de datos ni JavaScript.
 
 **Objetivo:** desarrollar una landing page atractiva, informativa y funcional que presente la propuesta de GreenBox de manera clara, priorizando las funcionalidades esenciales para cumplir con el tiempo de desarrollo de dos días.
-
