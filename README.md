@@ -90,7 +90,7 @@ La página estará dividida en cinco secciones:
 
 #### Vista desktop
 
-![Vista desktop de la landing page de GreenBox](img/greenbox-desktop.png)
+![Vista desktop de la landing page de GreenBox](img/greenBox-desktop.png)
 
 #### Vista tablet
 
