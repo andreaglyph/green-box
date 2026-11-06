@@ -1,6 +1,6 @@
 # GreenBox
 <p align="center">
-<img src="img/logo.png" alt="Logo GreenBox" width="100" height="auto">
+<img src="img/Logo.png" alt="Logo GreenBox" width="100" height="auto">
 </p>
  
 ## Cultiva, Recicla y Transforma
@@ -90,15 +90,15 @@ La página estará dividida en cinco secciones:
 
 #### Vista desktop
 
-![Vista desktop de la landing page de GreenBox](img/greenBox-desktop.png)
+![Vista desktop de la landing page de GreenBox](img/GreenBox-Desktop.png)
 
 #### Vista tablet
 
-![Vista tablet de la landing page de GreenBox](img/greenbox-tablet.png)
+![Vista tablet de la landing page de GreenBox](img/GreenBox-Tablet.png)
 
 #### Vista mobile
 
-![Vista mobile de la landing page de GreenBox](img/greenbox-mobile.png)
+![Vista mobile de la landing page de GreenBox](img/GreenBox-Mobile.png)
 
 ### 5. Alcance del proyecto
 
