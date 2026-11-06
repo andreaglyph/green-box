@@ -8,6 +8,7 @@
     --Verde-pino: #003527;
     --Verde-bosque: #125B49;
     --Marfil-cálido: #FCF6EB;
+    --Verde-muy-clarito: #e8eedf;
 
     /* Tipografías */
     --titulos: "DM Sans", sans-serif;
@@ -89,7 +90,13 @@ p {
 /* ========================================
    5. RECICLAJE - MANUELA VERGARA
 ======================================== */
-
+#cultivar{
+    background-color: var(--Verde-muy-clarito);
+}
+.cultivar-icon {
+    color: var(--Verde-bosque);
+    flex-shrink: 0;
+}
 
 /* ========================================
    6. CULTIVAR - ANDREA
