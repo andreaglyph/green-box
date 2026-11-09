@@ -6,15 +6,10 @@
     --Verde-noche: #051914;
     --Verde-pino: #003527;
     --Verde-bosque: #125B49;
-    --verde-salvia: var(--verde-salvia);
+    --verde-salvia: #63766C;
     --Marfil-cálido: #FCF6EB;
-<<<<<<< HEAD
     --Verde-muy-clarito: #e8eedf;
-
-    /* Tipografías */
-=======
     --Marfil-fresco: #FFFDF8;
->>>>>>> feature/section-recycling
     --titulos: "DM Sans", sans-serif;
     --texto: "Inter", sans-serif;
 }
@@ -161,8 +156,9 @@ p {
 
 
 /* ========================================
-   5. RECICLAJE - ANDREA GONZÁLEZ
+   RECICLAJE - ANDREA GONZÁLEZ
 ======================================== */
+
 #cultivar{
     background-color: var(--Verde-muy-clarito);
 }
@@ -170,10 +166,6 @@ p {
     color: var(--Verde-bosque);
     flex-shrink: 0;
 }
-
-/* ========================================
-   RECICLAJE
-======================================== */
 
 #reciclaje {
     background-color: var(--Marfil-fresco);
@@ -201,7 +193,6 @@ p {
     line-height: 1.7;
     margin-bottom: 5px;
 }
-
 
 .tarjeta-reciclaje {
     --color-fondo: #FFFCF8;
@@ -255,7 +246,6 @@ p {
     font-size: 15px;
 }
 
-
 .tarjeta-aprovechables {
     --color-fondo: #FFFCF8;
 }
@@ -279,7 +269,6 @@ p {
     color: #C6D8CE;
     border-top-color: #42685B;
 }
-
 
 .reciclaje-nota {
     display: flex;
@@ -344,7 +333,6 @@ p {
    8. FOOTER - MANUELA ROLDÁN
 ======================================== */
 
-<<<<<<< HEAD
 .gb-footer {
     background-color: var(--Verde-pino);
     color: var(--Marfil-cálido);
@@ -431,33 +419,3 @@ p {
         font-size: 9px;
     }
 }
-=======
-
-/* ========================================
-   9. RESPONSIVE - AJUSTES PARA MÓVILES
-======================================== */
-
-@media (max-width: 768px) {
-
-    /* Reciclaje */
-    #reciclaje {
-        padding: 60px 0 !important;
-    }
-
-    .reciclaje-titulo {
-        letter-spacing: -1px;
-        margin-bottom: 20px;
-    }
-
-    .reciclaje-descripcion {
-        font-size: 17px;
-        margin-top: 15px;
-    }
-
-    .tarjeta-reciclaje {
-        min-height: 310px;
-        padding: 28px;
-    }
-
-}
->>>>>>> feature/section-recycling
