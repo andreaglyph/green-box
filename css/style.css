@@ -106,7 +106,27 @@ p {
 /* ========================================
    7. VIDA SOSTENIBLE - JUAN PABLO
 ======================================== */
+#titulo {
+    font-size: 10px;
+    color: var(--Verde-bosque);
+}
 
+#fondo-tarjeta-compostaje {
+    color: var(--Marfil-cálido);
+    background-color: var(--Verde-pino);
+}
+
+#fondo-tarjeta-segundaVida {
+    background-color: var(--Marfil-cálido);
+}
+
+#fondo-tarjeta-ahorrar {
+    background-color: #e7eddf;
+}
+
+.consejos {
+    font-size: 0.7rem;
+}
 
 /* ========================================
    8. FOOTER - MANUELA ROLDÁN
