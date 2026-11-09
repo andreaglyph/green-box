@@ -3,14 +3,18 @@
 ======================================== */
 
 :root {
-    /* Colores */
     --Verde-noche: #051914;
     --Verde-pino: #003527;
     --Verde-bosque: #125B49;
+    --verde-salvia: var(--verde-salvia);
     --Marfil-cálido: #FCF6EB;
+<<<<<<< HEAD
     --Verde-muy-clarito: #e8eedf;
 
     /* Tipografías */
+=======
+    --Marfil-fresco: #FFFDF8;
+>>>>>>> feature/section-recycling
     --titulos: "DM Sans", sans-serif;
     --texto: "Inter", sans-serif;
 }
@@ -26,12 +30,10 @@
     box-sizing: border-box;
 }
 
-/* Títulos */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--titulos);
 }
 
-/* Párrafos */
 p {
     font-family: var(--texto);
 }
@@ -48,7 +50,6 @@ p {
     border-bottom: 1px solid #d8d8ca;
 }
 
-/* Marca */
 .gb-brand {
     color: var(--Verde-pino);
     font-size: 28px;
@@ -56,13 +57,11 @@ p {
     letter-spacing: -1px;
 }
 
-/* Logo */
 .gb-logo {
     width: 38px;
     height: 38px;
 }
 
-/* Enlaces de navegación */
 .gb-navbar .nav-link {
     padding: 10px 0 7px;
     color: #17231f;
@@ -70,7 +69,6 @@ p {
     border-bottom: 2px solid transparent;
 }
 
-/* Enlace activo */
 .gb-navbar .nav-link.active {
     color: var(--Verde-bosque);
     font-weight: 700;
@@ -88,7 +86,7 @@ p {
 
 
 /* ========================================
-   5. RECICLAJE - MANUELA VERGARA
+   5. RECICLAJE - ANDREA GONZÁLEZ
 ======================================== */
 #cultivar{
     background-color: var(--Verde-muy-clarito);
@@ -99,7 +97,146 @@ p {
 }
 
 /* ========================================
-   6. CULTIVAR - ANDREA
+   RECICLAJE
+======================================== */
+
+#reciclaje {
+    background-color: var(--Marfil-fresco);
+}
+
+.reciclaje-etiqueta {
+    color: var(--Verde-bosque);
+    font-family: var(--texto);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.reciclaje-titulo {
+    color: var(--Verde-noche);
+    font-size: clamp(32px, 4vw, 58px);
+    font-weight: 600;
+    letter-spacing: -2px;
+    line-height: 1.15;
+}
+
+.reciclaje-descripcion {
+    color: var(--verde-salvia);
+    font-size: clamp(16px, 1.5vw, 20px);
+    line-height: 1.7;
+    margin-bottom: 5px;
+}
+
+
+.tarjeta-reciclaje {
+    --color-fondo: #FFFCF8;
+    --color-texto: var(--Verde-noche);
+    --color-secundario: var(--verde-salvia);
+    --color-borde: #D4DDCD;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: clamp(24px, 3vw, 35px);
+    min-height: 336px;
+    background-color: var(--color-fondo);
+    border: 1px solid var(--color-borde);
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+.icono-reciclaje {
+    color: var(--Verde-bosque);
+    font-size: 38px;
+}
+
+.tarjeta-etiqueta {
+    color: var(--color-secundario);
+    font-family: var(--texto);
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.tarjeta-reciclaje h3 {
+    color: var(--color-texto);
+    font-size: clamp(23px, 2vw, 28px);
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.tarjeta-descripcion {
+    color: var(--color-secundario);
+    font-size: clamp(16px, 1.5vw, 20px);
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.tarjeta-pie {
+    color: var(--Verde-bosque);
+    border-top: 1px solid #CCD7C9;
+    padding-top: 18px;
+    margin-top: auto;
+    font-family: var(--texto);
+    font-size: 15px;
+}
+
+
+.tarjeta-aprovechables {
+    --color-fondo: #FFFCF8;
+}
+
+.tarjeta-organicos {
+    --color-fondo: #DDE7CE;
+}
+
+.tarjeta-no-aprovechables {
+    --color-fondo: var(--Verde-pino);
+    --color-texto: var(--Marfil-cálido);
+    --color-secundario: #C6D8CE;
+    --color-borde: var(--Verde-pino);
+}
+
+.tarjeta-no-aprovechables .icono-reciclaje {
+    color: var(--Marfil-cálido);
+}
+
+.tarjeta-no-aprovechables .tarjeta-pie {
+    color: #C6D8CE;
+    border-top-color: #42685B;
+}
+
+
+.reciclaje-nota {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--verde-salvia);
+}
+
+.reciclaje-nota i {
+    color: var(--Verde-bosque);
+    font-size: 23px;
+}
+
+.reciclaje-nota p {
+    margin: 0;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+
+    .reciclaje-titulo {
+        letter-spacing: -1px;
+    }
+
+    .tarjeta-reciclaje {
+        min-height: 310px;
+    }
+
+}
+
+/* ========================================
+   6. CULTIVAR - MANUELA VERGARA
 ======================================== */
 
 
@@ -132,6 +269,7 @@ p {
    8. FOOTER - MANUELA ROLDÁN
 ======================================== */
 
+<<<<<<< HEAD
 .gb-footer {
     background-color: var(--Verde-pino);
     color: var(--Marfil-cálido);
@@ -218,3 +356,33 @@ p {
         font-size: 9px;
     }
 }
+=======
+
+/* ========================================
+   9. RESPONSIVE - AJUSTES PARA MÓVILES
+======================================== */
+
+@media (max-width: 768px) {
+
+    /* Reciclaje */
+    #reciclaje {
+        padding: 60px 0 !important;
+    }
+
+    .reciclaje-titulo {
+        letter-spacing: -1px;
+        margin-bottom: 20px;
+    }
+
+    .reciclaje-descripcion {
+        font-size: 17px;
+        margin-top: 15px;
+    }
+
+    .tarjeta-reciclaje {
+        min-height: 310px;
+        padding: 28px;
+    }
+
+}
+>>>>>>> feature/section-recycling
