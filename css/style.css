@@ -14,7 +14,6 @@
     --texto: "Inter", sans-serif;
 }
 
-
 /* ========================================
    2. CONFIGURACIÓN GENERAL
 ======================================== */
@@ -69,7 +68,75 @@ p {
     font-weight: 700;
     border-bottom-color: var(--Verde-bosque);
 }
+/* Etiqueta superior */
+#inicio .gb-hero-kicker {
+    font-family: var(--texto);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--Verde-bosque);
+    text-transform: uppercase;
+}
 
+/* Título principal */
+#inicio h1 {
+    font-family: var(--titulos);
+    font-size: clamp(48px, 5.5vw, 88px);
+    font-weight: 500;
+    letter-spacing: -5px;
+    line-height: 1.08;
+    color: var(--Verde-noche);
+}
+
+/* Descripción */
+#inicio p {
+    font-family: var(--texto);
+    font-size: clamp(16px, 1.5vw, 22px);
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--verde-salvia);
+}
+
+/* Botón */
+#inicio .btn {
+    font-family: var(--texto);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#inicio .gb-hero-note {
+    font-family: var(--texto);
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--verde-salvia);
+}
+
+#inicio .gb-hero-caption strong {
+    font-family: var(--titulos);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#inicio .gb-hero-caption small {
+    font-family: var(--texto);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+@media (max-width: 768px) {
+    #inicio h1 {
+        font-size: clamp(42px, 9vw, 58px);
+        letter-spacing: -2.5px;
+        line-height: 1.1;
+    }
+
+    #inicio p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
 
 /* ========================================
    4. INICIO - ANDRÉS
